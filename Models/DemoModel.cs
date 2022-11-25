@@ -4,7 +4,7 @@ namespace backend.Models
     {
          public string count { get; set; }
         // public object msgData { get; set; }
-         public QuestionData question { get; set; }
+         public QuestionData[] question { get; set; }
 
 
     }
